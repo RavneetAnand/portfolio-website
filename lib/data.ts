@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import vocaboImg from "@/public/vocabo.png";
 
 export const links = [
   {
@@ -16,16 +14,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +33,87 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "Freelance Software Engineer, Compute & Cultivate",
+    location: "Remote, UK",
+    description: `•  Lead the design and development of high-performance web applications using React, Tailwind CSS, and Next.js, focusing on optimizing user experience and enhancing front-end aesthetics and functionality
+      •  Oversee the architecture and implementation of mobile applications leveraging React Native and Expo, ensuring seamless cross-platform compatibility and high-quality user interfaces
+      •  Drive the integration of React and Next.js in building SEO-optimized, server-side rendered applications, resulting in a 30% increase in user engagement metrics
+      •  Collaborate closely with product teams and stakeholders to deliver tailored solutions in web and mobile development, meeting precise business needs and customer expectations`,
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "Apr 2024 - Present",
+  },
+  {
+    title: "Senior Software Engineer, Perlego",
+    location: "London, UK",
+    description: `•  Effectively collaborated with a cross-functional team to successfully deliver projects on time and within budget
+      •  Mentoring and coaching junior software engineers to foster their growth and development in technical skills and product knowledge
+      •  Doing regular code-reviews in order to deploy quality code
+      •  Added features like Read-aloud to the React based reader platform that increased subscription by 32% and raised user's CLTV by 30%
+      •  Helped migration to a new deployment strategy using AWS tools to accelerate efficiency
+      •  Enhancing the security of the server requests using encryption that helped prevent illegal downloading of books, upholding publisher contracts
+      •  Designed microservices using Lambda, Node.JS, MySQL, Redis, ECS, S3, SNS and SQS
+      •  Collaborating with product managers and designers to understand requirements and translate them into technical solutions`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan 2022 - Mar 2024",
+  },
+  {
+    title: "Tech Lead, SopraSteria",
+    location: "Toulouse, France",
+    description: `•  Facilitating cross-cultural communication between the French and Indian teams to ensure smooth collaboration
+      •  Managing project timelines and ensuring deliverables are met on time for clients like Airbus, ST Microelectronics and more
+      •  Worked extensively on fine tuning the complex SQL queries and database performance resulting in a notable 40% reduction in page-load time
+      •  Implemented NodeJS microservices from scratch while migrating windows-app to web-app`,
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2019 - Dec 2021",
+  },
+  {
+    title: "Software Engineer, SopraSteria",
+    location: "Noida, India",
+    description: `•  Leading team on some modules of the application
+    •  Gathering the requirements with the on-shore team
+    •  Implementation of new functionalities in the applications`,
+    icon: React.createElement(CgWorkAlt),
+    date: "Jun 2013 - May 2019",
+  },
+  {
+    title: "Bachelor of Technology",
+    location: "Delhi, India",
+    description: `Bachelor of Technology degree in Electonics & Communication from Guru Gobind Singh Indraprastha University, Delhi`,
+    icon: React.createElement(LuGraduationCap),
+    date: "Aug 2008 - Dec 2012",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Vocabo",
+    description: `A React-Typescript based language learning extension for Chrome and Firefox that helps reinforce vocabulary retention.
+
+      This extension pins newly learned words and their meanings in your language, displaying them randomly on web pages to enhance your learning.`,
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: vocaboImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
-  "Git",
+  "SQL",
+  "NoSQL",
+  "TypeScript",
+  "JavaScript",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "AWS",
+  "Expo",
   "Express",
-  "PostgreSQL",
+  "Redux",
+  "Git",
+  "Styled components",
+  "HTML",
   "Python",
-  "Django",
+  "Fast API",
   "Framer Motion",
+  "Blueprint JS",
 ] as const;
