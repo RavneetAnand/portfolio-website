@@ -38,7 +38,16 @@ export default function Experience() {
               }}
               visible={true}
             >
-              <h3 className="font-semibold capitalize text-lg">{item.title}</h3>
+              <h3 className="font-semibold capitalize text-lg">
+                {`${item.title}, `}
+                {item.companyUrl ? (
+                  <a className="underline" href={item.companyUrl} target="_blank" rel="noopener noreferrer">
+                    {item.company}
+                  </a>
+                ) : (
+                  item.company
+                )}
+              </h3>
               <p className="font-extralight text-gray-500 !mt-0 italic dark:text-white/60">{item.location}</p>
               <p className="!mt-1 !font-light text-gray-700 dark:text-white/75 whitespace-pre-line">
                 {item.description}

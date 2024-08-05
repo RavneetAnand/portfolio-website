@@ -33,7 +33,9 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Senior Software Engineer, Compute & Cultivate",
+    title: "Senior Software Engineer",
+    company: "Compute & Cultivate",
+    companyUrl: "",
     location: "London, UK 🇬🇧",
     description: `•  Lead the design and development of high-performance web applications using React, Tailwind CSS, and Next.js, focusing on optimizing user experience and enhancing front-end aesthetics and functionality
       •  Oversee the architecture and implementation of mobile applications leveraging React Native and Expo, ensuring seamless cross-platform compatibility and high-quality user interfaces
@@ -43,7 +45,9 @@ export const experiencesData = [
     date: "Apr 2024 - Present",
   },
   {
-    title: "Senior Software Engineer, Perlego",
+    title: "Senior Software Engineer",
+    company: "Perlego",
+    companyUrl: "https://www.perlego.com/",
     location: "London, UK 🇬🇧",
     description: `•  Effectively collaborated with a cross-functional team to successfully deliver projects on time and within budget
       •  Mentoring and coaching junior software engineers to foster their growth and development in technical skills and product knowledge
@@ -57,7 +61,9 @@ export const experiencesData = [
     date: "Jan 2022 - Mar 2024",
   },
   {
-    title: "Tech Lead, SopraSteria",
+    title: "Tech Lead",
+    company: "Sopra Steria",
+    companyUrl: "https://www.soprasteria.com/",
     location: "Toulouse, France 🇫🇷",
     description: `•  Facilitating cross-cultural communication between the French and Indian teams to ensure smooth collaboration
       •  Managing project timelines and ensuring deliverables are met on time for clients like Airbus, ST Microelectronics and more
@@ -67,7 +73,9 @@ export const experiencesData = [
     date: "May 2019 - Dec 2021",
   },
   {
-    title: "Software Engineer, SopraSteria",
+    title: "Software Engineer",
+    company: "Sopra Steria",
+    companyUrl: "https://www.soprasteria.in/",
     location: "Noida, India 🇮🇳",
     description: `•  Leading team on some modules of the application
     •  Gathering the requirements with the on-shore team
@@ -77,6 +85,8 @@ export const experiencesData = [
   },
   {
     title: "Bachelor of Technology",
+    company: "GGSIPU",
+    companyUrl: "http://www.ipu.ac.in/",
     location: "Delhi, India 🇮🇳",
     description: `Bachelor of Technology degree in Electonics & Communication from Guru Gobind Singh Indraprastha University, Delhi`,
     icon: React.createElement(LuGraduationCap),
