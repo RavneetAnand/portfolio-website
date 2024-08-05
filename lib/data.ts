@@ -14,12 +14,12 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
     name: "Skills",
     hash: "#skills",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -33,8 +33,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelance Software Engineer, Compute & Cultivate",
-    location: "Remote, UK",
+    title: "Senior Software Engineer, Compute & Cultivate",
+    location: "London, UK 🇬🇧",
     description: `•  Lead the design and development of high-performance web applications using React, Tailwind CSS, and Next.js, focusing on optimizing user experience and enhancing front-end aesthetics and functionality
       •  Oversee the architecture and implementation of mobile applications leveraging React Native and Expo, ensuring seamless cross-platform compatibility and high-quality user interfaces
       •  Drive the integration of React and Next.js in building SEO-optimized, server-side rendered applications, resulting in a 30% increase in user engagement metrics
@@ -44,7 +44,7 @@ export const experiencesData = [
   },
   {
     title: "Senior Software Engineer, Perlego",
-    location: "London, UK",
+    location: "London, UK 🇬🇧",
     description: `•  Effectively collaborated with a cross-functional team to successfully deliver projects on time and within budget
       •  Mentoring and coaching junior software engineers to foster their growth and development in technical skills and product knowledge
       •  Doing regular code-reviews in order to deploy quality code
@@ -58,7 +58,7 @@ export const experiencesData = [
   },
   {
     title: "Tech Lead, SopraSteria",
-    location: "Toulouse, France",
+    location: "Toulouse, France 🇫🇷",
     description: `•  Facilitating cross-cultural communication between the French and Indian teams to ensure smooth collaboration
       •  Managing project timelines and ensuring deliverables are met on time for clients like Airbus, ST Microelectronics and more
       •  Worked extensively on fine tuning the complex SQL queries and database performance resulting in a notable 40% reduction in page-load time
@@ -68,7 +68,7 @@ export const experiencesData = [
   },
   {
     title: "Software Engineer, SopraSteria",
-    location: "Noida, India",
+    location: "Noida, India 🇮🇳",
     description: `•  Leading team on some modules of the application
     •  Gathering the requirements with the on-shore team
     •  Implementation of new functionalities in the applications`,
@@ -77,7 +77,7 @@ export const experiencesData = [
   },
   {
     title: "Bachelor of Technology",
-    location: "Delhi, India",
+    location: "Delhi, India 🇮🇳",
     description: `Bachelor of Technology degree in Electonics & Communication from Guru Gobind Singh Indraprastha University, Delhi`,
     icon: React.createElement(LuGraduationCap),
     date: "Aug 2008 - Dec 2012",
@@ -97,7 +97,6 @@ export const projectsData = [
 
 export const skillsData = [
   "React",
-  "React Native",
   "Next.js",
   "Node.js",
   "SQL",
@@ -105,15 +104,18 @@ export const skillsData = [
   "TypeScript",
   "JavaScript",
   "Tailwind",
-  "AWS",
-  "Expo",
   "Express",
+  "AWS",
+  "Docker",
+  "React Native",
+  "Expo",
   "Redux",
   "Git",
+  "Kubernetes",
   "Styled components",
   "HTML",
   "Python",
   "Fast API",
   "Framer Motion",
-  "Blueprint JS",
+  "BlueprintJS",
 ] as const;

@@ -19,17 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a technology degree in 2013, I decided to pursue my passion for programming. My main
-        inspiration was to use my technical skills to help the community. My core stack includes{" "}
-        <span className="font-medium">React, Next.js, Node.js, SQL and NoSQL</span>.
+        Since earning my technology degree in 2013, I've channeled my passion for programming into impactful community
+        projects. My expertise spans <span className="font-medium">React, Next.js, Node.js, SQL and NoSQL</span>,
+        allowing me to build robust and innovative solutions.
       </p>
       <p className="mb-3">
-        I'm seeking a full-time Senior Software Developer position in the UK and will{" "}
-        <span className="font-medium">require visa sponsorship</span>.
+        I'm seeking a full-time Senior Software Developer position in the UK,{" "}
+        <span className="font-medium">with visa sponsorship</span>.
       </p>
       <p>
-        <span className="italic">Outside of coding</span>, I enjoy traveling, cooking, learning new languages, exploring
-        AI, and playing the dilruba.
+        <span className="italic">Beyond the keyboard</span>, I'm an avid traveler and culinary experimenter. I love
+        diving into new languages, exploring the frontiers of AI, and playing the enchanting notes of the dilruba.
       </p>
     </motion.section>
   );
