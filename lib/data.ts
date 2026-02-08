@@ -40,8 +40,8 @@ export const experiencesData = [
     description: `•  Architected and maintained AWS infrastructure (ECS, SQS, EC2) for a scalable offsite construction automation platform
 			•  Built high-throughput SQS workers to handle complex computational workflows integrating tools like Rhino.Compute
 			•  Led 0→1 development from MVP to production, securing contracts with three early customers
-			•  Mentored a team of four engineers, driving technical excellence and best practices across the stack
-			•  Delivered full-stack solutions (React, Next.js, Python, MongoDB) while translating client needs into innovative automation features`,
+			•  Leveraged agentic coding workflows and advanced coding agents to accelerate development, improve reliability, and streamline complex builds
+			•  Mentored a team of four engineers, driving technical excellence and best practices across the stack in a fast-paced startup environment`,
     icon: React.createElement(FaReact),
     date: "Nov 2024 - October 2025",
   },
@@ -117,19 +117,20 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "AI agentic workflows",
   "React",
   "Next.js",
-  "React Query",
+  "Python",
   "AWS",
   "Node.js",
   "React Native",
-  "Python",
   "Fast API",
   "TypeScript",
   "SQL",
   "JavaScript",
   "Tailwind",
   "NoSQL",
+  "React Query",
   "Express",
   "Docker",
   "Expo",
